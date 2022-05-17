@@ -1,0 +1,13 @@
+Which BM25 do you mean? Summary:
+================================
+
+Various implementations of BM25 exist. Many variants of the scoring function.
+
+Lucene is the version deployed in the real world
+
+All the variants have very low difference between them in terms of retrieval precision. However Lucene is far faster in terms of retrieval time.
+
+Two variants of Lucene are implemented in the study.
+The default implementation uses an approximation of the original document lengths.
+The accurate implementation does not approximate this. 
+The retrieval precision difference is negligible between the two.
