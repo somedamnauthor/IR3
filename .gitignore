@@ -1,5 +1,4 @@
 venv/
-data
 elasticsearch-7.9.1
 .ipynb_checkpoints
 .DS_Store
