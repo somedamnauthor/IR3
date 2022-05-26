@@ -2,3 +2,4 @@ venv/
 elasticsearch-7.9.1
 .ipynb_checkpoints
 .DS_Store
+data/BM25_results
